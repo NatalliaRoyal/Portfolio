@@ -1,0 +1,49 @@
+/* ================================
+CSS Reset / Сброс стилей
+================================= */
+*,
+*::before,
+*::after {
+	margin: 0; // сброс отступов
+	padding: 0; // сброс внутренних отступов
+	box-sizing: border-box; // удобная модель размеров
+}
+
+html {
+	font-size: 100%; // базовый размер шрифта
+}
+
+body {
+	font-family: $font-body; // основной шрифт проекта
+	line-height: 1.5; // удобная высота строки
+	color: $light-gray ; // базовый цвет текста
+	background-color: $mint; // базовый фон страницы
+}
+
+ul,
+ol {
+	list-style: none; // убираем стандартные маркеры
+}
+
+a {
+	text-decoration: none; // убираем подчеркивание ссылок
+	color: inherit; // наследуем цвет текста
+}
+
+img {
+	max-width: 100%; // адаптивные изображения
+	display: block;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font: inherit; // наследуем шрифт от родителя
+}
+
+input,
+textarea {
+	font: inherit; // наследуем шрифт
+	outline: none; // убираем стандартные обводки (можно потом стилизовать)
+}

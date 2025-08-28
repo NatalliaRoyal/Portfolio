@@ -1,0 +1,56 @@
+//Hero section
+.hero {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	flex-direction: column;
+
+	&__image {
+		// стили для фонового изображения
+		width: 100%; // растянется на ширину блока
+		max-width: 250px; // но не больше, чем 400px
+		height: auto; // сохраняет пропорции
+		display: block;
+		margin: 0 auto; // выровнять по центру
+		object-fit: cover; // чтобы не сжималось
+		padding: 15px 16px;
+	}
+
+	&__content {
+		// стили для блока с текстом и иконками
+		padding: 16px;
+	}
+
+	&__title {
+		// стили для приветствия
+	}
+
+
+	&__description {
+		// стили для описания
+		margin: 25px 0;
+	}
+
+	&__social {
+		// контейнер для соцсетей
+		display: flex;
+		justify-content: space-between;
+
+
+
+		&-link {
+			// отдельная иконка-ссылка
+			display: inline-block;
+			width: 40px; // пример размера
+			height: 40px;
+			cursor: pointer;
+		}
+	}
+}
+
+.highlight {
+	background-color: #ffe08a; // нежный жёлтый, как маркер
+	padding: 0 4px;
+	border-radius: 4px;
+	font-weight: 600;
+}

@@ -4,13 +4,94 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<!--Google fonts-->
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Pacifico&family=Playfair+Display:wght@400;700&display=swap"
 		rel="stylesheet">
-	<title>Portfolio</title>
+	<!--Стили проекта-->
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
+
+	<!--===========HEADER===============-->
+	<div class="header-hero-wrapper">
+		<header class="header">
+			<div class="header__container">
+				<!====================LOGO=============>
+					<a href="#" class="header__logo"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<circle cx="24" cy="24" r="22" stroke="#CBA6F7" stroke-width="4" />
+							<path d="M12 24c0-6.63 5.37-12 12-12s12 5.37 12 12-5.37 12-12 12-12-5.37-12-12z" fill="#A8E6CF" />
+							<circle cx="24" cy="24" r="6" fill="#FFB5C8" />
+						</svg>
+						<div class="header__name">
+							<p class="header__text">Portfolio</p>
+						</div>
+					</a>
+
+					<!================BURGER MENU================>
+						<button class="header__burger" aria-label="Toggle menu">
+							<svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<rect y="4" width="24" height="2" rx="1" fill="#FFB5C8" />
+								<rect y="11" width="24" height="2" rx="1" fill="#B5EAEA" />
+								<rect y="18" width="24" height="2" rx="1" fill="#FFD6A5" />
+							</svg>
+						</button>
+						<!=============NAV===============>
+							<nav class="header__nav">
+								<ul class="header__list">
+									<li class="header__item"><a href="#About" class="header__link">About me</a></li>
+									<li class="header__item"><a href="#Skills" class="header__link">Skills</a></li>
+									<li class="header__item"><a href="#Project" class="header__link">Project</a></li>
+									<li class="header__item"><a href="#Contact" class="header__link">Contact me</a></li>
+								</ul>
+							</nav>
+							<button class="resume" aria-label="resume download">
+								<p>Resume</p> <img src="/images/seo-social-web-network-internet_12_icon-icons.com_61498.svg"
+									alt="download resume">
+							</button>
+			</div>
+
+
+		</header>
+		<!--==============MAIN===============-->
+		<main class="hero">
+			<!-- Фоновая картинка -->
+			<img src="/images/ChatGPT Image 28 авг. 2025 г., 16_50_06.png" alt="Hero image" class="hero__image">
+
+			<!-- Контент поверх картинки -->
+			<div class="hero__content">
+				<!-- Приветствие -->
+				<h1 class="hero__title">Hello, I’m Natallia! <span class="highlight">Frontend</span> Developer from Belarus</h1>
+
+				<!-- Описание -->
+				<p class="hero__description">I’m a Frontend Developer passionate about creating modern, responsive websites.
+					Currently learning and growing my skills every day to build clean and user-friendly interfaces.</p>
+
+				<!-- Социальные иконки -->
+				<div class="hero__social">
+					<a href="#" class="hero__social-link">
+						<img src="/images/Instagram_icon-icons.com_66804.svg" alt="Instagram">
+					</a>
+					<a href="#" class="hero__social-link">
+						<img src="/images/seo-social-web-network-internet_12_icon-icons.com_61498.svg" alt="GitHub">
+					</a>
+					<a href="#" class="hero__social-link">
+						<img src="/images/linkedin_icon-icons.com_65929.svg" alt="LinkedIn">
+					</a>
+					<a href="#" class="hero__social-link">
+						<img src="/images/Twitter_icon-icons.com_66803.svg" alt="Twitter">
+					</a>
+				</div>
+			</div>
+		</main>
+	</div>
+	<!--===================FOOTER=============-->
+	<footer>
+
+	</footer>
 
 </body>
 

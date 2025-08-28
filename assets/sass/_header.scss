@@ -1,0 +1,50 @@
+.header {
+	width: 100%;
+	background-color: $mint; // мягкий фон
+
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); // лёгкая тень
+}
+
+.header__container {
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center; // выравниваем вертикально текст и иконку
+	cursor: pointer; // визуальный признак кликабельности
+}
+
+.header__name {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.header__text {
+	font-family: $font-heading;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.07em; //Интервал между буквами
+}
+
+.header__burger {
+	display: flex;
+	align-items: center;
+	cursor: pointer; // визуальный признак кликабельности
+}
+
+.header__burger svg {
+	width: 32px;
+	height: 32px;
+}
+
+/* Скрываем навигацию и резюме на мобильной версии */
+.header__nav,
+.resume {
+	display: none;
+}
