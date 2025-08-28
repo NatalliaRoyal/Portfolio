@@ -118,6 +118,9 @@ textarea {
 .hero__content {
   padding: 16px;
 }
+.hero__title {
+  font-size: 1em;
+}
 .hero__description {
   margin: 25px 0;
 }
